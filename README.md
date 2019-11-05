@@ -1,1 +1,6 @@
-# PSO
+# Particle Swarm Optimization (PSO)
+Particle Swarm Optimization (PSO) is a gradient-free heuristic optimization algorithm first proposed in a seminal paper by Eberhart & Kennedy (1995). The algorithm searches for a function’s global minimum over a continuous search space using simple rules derived from the observed behaviours of social organisms navigating a complex environment; we refer to such rules as swarm intelligence (SI) rules. The aim of this project is threefold:
+1. We formally introduce the PSO algorithm as well as a recent variant, the Quantum-behaved Particle Swarm Optimization (QPSO) algorithm, and show how these can be implemented in Python.
+2. WebrieflyrevisitthedeathofMoore’slaw,Waldrop(2016),andthereforemotivateparallelcomputing as a crucial tool in modern statistical computing.
+3. Weanalyzetheperformanceofparallelisedandnon-parallelisedimplementationsofPSOandQPSO in Python across a range of test functions.
+The report is structured as follows: section 2 formally introduces the PSO algorithm, section 3 formally introduces the QPSO algorithm, section 4 discusses some practical concerns regarding parallelisation and implementation of our algorithm, section 5 describes the actual implementation of the PSO and QPSO al- gorithms in Python, section 6 discusses the performance of the algorithms for different test functions, and section 7 offers some concluding remarks.
